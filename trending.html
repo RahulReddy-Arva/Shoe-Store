@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Trending</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/gendercss.css" rel="stylesheet">
+    </head>
+    
+     <body>
+  
+      
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div classs="container">
+              <a class="navbar-brand" href="#">Shoe Stop !</a>
+        </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-home-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            
+             <div class="collapse navbar-collapse" id="bs-home-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ShoppingCart.html.php">Cart</a></li>
+                <li><a href="OrderHistory.html.php">Order History</a></li>
+                <li><a href="trending.html">Trending</a></li>
+            </ul>
+            </div>
+        </div>
+         
+        <div class="navbar-header navbar-right">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-home-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+             </button>
+         <div class="collapse navbar-collapse" id="bs-home-navbar-collapse-2">
+
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Contact us</a></li>
+                <li><a href="login.html">Log in/SignUP</a></li>
+                
+
+             </ul> </div></div>
+         </nav>
+         
+         
+         <div class="container">
+  <div class="jumbotron">
+    <h1>Trending</h1>
+    
+</div>
+         
+         
+      <div class="row">
+     <!-- Start of an item-->
+    <?php
+    $arr = array(1, 2, 3, 4, 5,6,7, 2, 3, 4, 5, 2, 3, 4, 5, 2, 3, 4, 5);
+    foreach ($arr as &$value) {
+        ?>
+          <div class="col-sm-4 col-md-3">
+      <div class="thumbnail">
+          
+      <img src="" alt="trend">
+          
+      <div class="caption">
+        <h3>SHOES</h3>
+          <button class="btn btn-danger btn-sm">
+     <img src="images/cart%20icon.png" width="20" /><a href="cart.html"> Add to cart</a>
+</button>
+      </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="" alt="trend">
+      <div class="caption">
+        <h3>SHOES</h3>
+          <button class="btn btn-danger btn-sm">
+              <img src="images/cart%20icon.png" width="20" /><a href="cart.html"> Add to cart</a>
+</button>
+      </div>
+    </div>
+    </div>
+    
+     <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="" alt="trend">
+      <div class="caption">
+        <h3>SHOES</h3>
+          <button class="btn btn-danger btn-sm">
+              <img src="images/cart%20icon.png" width="20" /><a href="cart.html"> Add to cart</a>
+</button>
+      </div>
+    </div>
+    </div>
+    
+     <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="" alt="trend">
+      <div class="caption">
+        <h3>SHOES</h3>
+          <button class="btn btn-danger btn-sm">
+              <img src="images/cart%20icon.png" width="20" /> <a href="cart.html">Add to cart</a>
+</button>
+      </div>
+    </div>
+    </div>
+    
+     <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="" alt="trend">
+      <div class="caption">
+        <h3>SHOES</h3>
+          <button class="btn btn-danger btn-sm">
+              <img src="images/cart%20icon.png" width="20" /> <a href="cart.html">Add to cart</a>
+</button>
+      </div>
+    </div>
+    </div>
+    
+     <div class="col-sm-4 col-md-3">
+    <div class="thumbnail">
+      <img src="" alt="trend">
+      <div class="caption">
+        <h3>SHOES</h3>
+          <button class="btn btn-danger btn-sm">
+              <img src="images/cart%20icon.png" width="20" /><a href="cart.html"> Add to cart</a>
+</button>
+      </div>
+    </div>
+    </div>
+    
+    
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+    
+    <!-- End of an item-->
+
+<?php
+        }
+?>   
+</div>   
+         </div>     
+               
+         
+    </body>
+</html>

@@ -1,0 +1,95 @@
+.no-margin
+{
+    margin:0px;
+}
+.no-padding
+{
+    padding:0px;
+}
+.site-footer
+{
+    background-color:#080808;
+    color:#9d9d9d;
+    margin: 30px;
+    padding:30px;
+    border-top:1px solid #b2b2b2
+}
+.footer-nav li
+{
+    display: inline;
+    
+}
+.footer-nav
+{
+    text-align: right;
+    list-style: none;
+}
+.footer-nav li:before
+{
+    content:'|';
+    padding: 0px 5px;
+}
+.footer-nav a
+{
+    color:#b2b2b2;
+}
+.footer-nav a:hover
+{
+    color:white;
+    text-decoration: none;
+}
+.welcome-text
+{
+    font-family: cursive;
+    font-weight: bold;
+    background: #b2b2b2;
+}
+.bc
+{
+    background-color: aqua;
+}
+body
+{
+    background-color:lightgrey;
+}
+.navbar-inverse .navbar-brand:hover
+{
+    color:aqua;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color:aqua;
+}
+.footer-nav a:hover
+{
+    color:aqua;
+}
+.btn-default
+{
+    color:#b2b2b2;
+    background:black;
+}
+.btn-default:hover
+{
+    color:aqua;
+    background:#222;
+}
+.subchk
+{
+    color:black;
+    
+}
+.subchk:hover
+{
+    color:aqua;
+    
+}
+.dropdown-menu
+{
+    background:lightgrey;
+}
+
+img
+{
+    horizontal-align:middle;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign UP
+    </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+<div class="container">
+    <form class="form-horizontal" action="register.php" method="post" role="form">
+        <tab><h2>Registration Form</h2></tab>
+        <div class="form-group">
+            <label for="first_name" class="col-sm-3 control-label">First Name</label>
+            <div class="col-sm-9">
+                <input type="text" id="first_name" name="first_name" placeholder="first name" class="form-control" autofocus required>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="middle_name" class="col-sm-3 control-label">Middle Name</label>
+            <div class="col-sm-9">
+                <input type="text" id="middle_name" name="middle_name" placeholder="middle Name" class="form-control" autofocus required>
+                </div>
+        </div>
+        <div class="form-group">
+            <label for="last_name" class="col-sm-3 control-label">Last Name</label>
+            <div class="col-sm-9">
+                <input type="text" id="last_name" name="last_name" placeholder="last Name" class="form-control" autofocus required>
+                </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-9">
+                <input type="email" id="email" name="email" placeholder="Email" class="form-control" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-9">
+                <input type="password" id="password" name="password" placeholder="Password" class="form-control" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+            <div class="col-sm-9">
+                <input type="text" id="birthDate" name="birthDate" class="form-control">
+            </div>
+        </div>
+       <div class="form-group">
+            <label for="billingAddress" class="col-sm-3 control-label">Billing Address</label required>
+            <div class="col-sm-9">
+                <input type="text" id="billingAddress" name="billingAddress" placeholder="Apartment, Street Address,City,State,Zip Code" class="form-control" autofocus>
+                </div>
+
+        </div>
+       <div class="form-group">
+           <div class="checkbox">
+               <div class="container">
+             <label><input type="checkbox" id="shipping-billing-checkbox" value="">Check if billing and shippping address is same</label>
+           </div> </div>
+       </div>
+
+            <div class="form-group">
+            <label for="shippingAddress" class="col-sm-3 control-label">Shipping Address</label>
+            <div class="col-sm-9">
+                <input type="text" id="shippingAddress" name="shippingAddress" placeholder="Apartment, Street Address,City,State,Zip Code" class="form-control" autofocus>
+                </div>
+
+
+        </div> <!-- /.form-group -->
+        <div class="form-group">
+            <label class="control-label col-sm-3">Gender</label>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="femaleRadio" name="female" name="gender" value="Female">Female
+                        </label>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="radio-inline">
+                            <input type="radio" id="maleRadio" name="male" name="gender" value="Male">Male
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.form-group -->
+         <div class="form-group">
+            <label for="phonenumber" class="col-sm-3 control-label">Phone Number</label>
+            <div class="col-sm-9">
+                <input type="text" id="phonenumber" name="phonenumber" placeholder="PhoneNumber" class="form-control" autofocus>
+            </div>
+
+             <br>
+             <br>
+             <br>
+
+        <div class="form-group">
+
+            <div class="col-sm-6 col-sm-offset-3">
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+             </div>
+             </div></div>
+    </form> <!-- /form -->
+</div> <!-- ./container -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/moment.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

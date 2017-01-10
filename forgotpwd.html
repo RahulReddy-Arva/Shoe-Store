@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+body
+ {background-color: #F0FFFF;}
+ 
+ .topcorner{
+   position:absolute;
+   top:0.1;
+   right:0;
+   
+  }
+a:hover {
+    color: Blue;
+}
+</style>
+<body>
+ 
+<hr>
+<div class="container">
+<div style="float: right" ><a href="index.php"><font color="black">Back to Home</font></a></div>
+    <div class="row">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="text-center">
+                          <h3><i class="fa fa-lock fa-4x"></i></h3>
+                          <h2 class="text-center">Forgot Password?</h2>
+                          <p>You can reset your password here.</p>
+                            <div class="panel-body">
+                              
+                              <form class="form" action="resetpwd.html.php" method="post">
+                                <fieldset>
+                                  <div class="form-group">
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                                      
+                                      <input id="emailInput" name="emailInput" placeholder="Enter Email Address" class="form-control" type="email" oninvalid="setCustomValidity('Please enter a valid email address!')" onchange="try{setCustomValidity('')}catch(e){}" required="">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <input onclick="www.google.com" class="btn btn-lg btn-primary btn-block" value="Reset Password" type="submit">
+                                  </div>
+                                </fieldset>
+                              </form>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
